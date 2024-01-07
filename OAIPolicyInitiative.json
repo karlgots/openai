@@ -1,0 +1,81 @@
+{
+  "id": "",
+  "name": "",
+  "type": "microsoft.authorization/policysetdefinitions",
+  "tenantId": "",
+  "kind": "policysetdefinitions",
+  "location": "global",
+  "resourceGroup": "",
+  "subscriptionId": "",
+  "managedBy": "",
+  "sku": null,
+  "plan": null,
+  "properties": {
+    "parameters": {},
+    "displayName": "Reference OpenAI policy initiative",
+    "description": null,
+    "policyType": "Custom",
+    "policyDefinitions": [
+      {
+        "policyDefinitionReferenceId": "Cognitive Services accounts should enable data encryption with a customer-managed key_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/67121cc7-ff39-4ab8-b7e3-95b84dab487d",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "openai"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Cognitive Services accounts should restrict network access_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/037eea7a-bd0a-46c5-9a66-03aea78705d3",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "openai"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Cognitive Services accounts should have local authentication methods disabled_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/71ef260a-8f18-47b7-abcb-62d0673d94dc",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "openai"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Cognitive Services accounts should use a managed identity_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/fe3fd216-4f83-4fc1-8984-2bbec80a3418",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "openai"
+        ]
+      }
+    ],
+    "version": null,
+    "policyDefinitionGroups": [
+      {
+        "additionalMetadataId": null,
+        "displayName": "Open AI",
+        "description": null,
+        "category": null,
+        "name": "openai"
+      }
+    ],
+    "versions": null,
+    "oldVersions": null
+  },
+  "tags": null,
+  "identity": null,
+  "zones": null,
+  "extendedLocation": null
+}

@@ -1,0 +1,337 @@
+{
+  "id": "",
+  "name": "",
+  "type": "microsoft.authorization/policysetdefinitions",
+  "tenantId": "",
+  "kind": "policysetdefinitions",
+  "location": "global",
+  "resourceGroup": "",
+  "subscriptionId": "",
+  "managedBy": "",
+  "sku": null,
+  "plan": null,
+  "properties": {
+    "parameters": {},
+    "displayName": "Reference OpenAI policy initiative",
+    "description": null,
+    "policyType": "Custom",
+    "policyDefinitions": [
+      {
+        "policyDefinitionReferenceId": "Cognitive Services accounts should enable data encryption with a customer-managed key_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/67121cc7-ff39-4ab8-b7e3-95b84dab487d",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "openai"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Cognitive Services accounts should restrict network access_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/037eea7a-bd0a-46c5-9a66-03aea78705d3",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "openai"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Cognitive Services accounts should have local authentication methods disabled_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/71ef260a-8f18-47b7-abcb-62d0673d94dc",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "openai"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Cognitive Services accounts should use a managed identity_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/fe3fd216-4f83-4fc1-8984-2bbec80a3418",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "openai"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service app slots should use latest 'HTTP Version'_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4dcfb8b5-05cd-4090-a931-2ec29057e1fc",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service app slots should use the latest TLS version_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4ee5b817-627a-435a-8932-116193268172",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service app slots should use managed identity_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4a15c15f-90d5-4a1f-8b63-2903944963fd",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service apps should be injected into a virtual network_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/72d04c29-f87d-4575-9731-419ff16a2757",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service apps should enable configuration routing to Azure Virtual Network_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/801543d1-1953-4a90-b8b0-8cf6d41473a5",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service apps should have local authentication methods disabled for FTP deployments_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/871b205b-57cf-4e1e-a234-492616998bf7",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service apps should have resource logs enabled_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/91a78b24-f231-4a8a-8da9-02c35b2b6510",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service apps should have authentication enabled_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/95bccee9-a7f8-4bec-9ee9-62c3473701fc",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service apps should only be accessible over HTTPS_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a4af4a39-4135-47fb-b175-47fbdf85311d",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service app slots should have remote debugging turned off_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a08ae1ab-8d1d-422b-a123-df82b307ba61",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service apps should use the latest TLS version_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f0e6e85b-9b9f-4a4b-b67b-f730d42f1b0b",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service Environment should have TLS 1.0 and 1.1 disabled_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d6545c6b-dd9d-4265-91e6-0b451e2f1c50",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Configure App Service app slots to turn off remote debugging_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cca5adfe-626b-4cc6-8522-f5b6ed2391bd",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service apps should have remote debugging turned off_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cb510bfd-1cba-4d9f-a230-cb0976f4bb71",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "App Service app slots should have resource logs enabled_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d639b3af-a535-4bef-8dcf-15078cddf5e2",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "appservice"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Storage accounts should restrict network access_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/34c877ad-507e-4c82-993e-3452a6e0ad3c",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "storage"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Secure transfer to storage accounts should be enabled_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "storage"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Storage accounts should use customer-managed key for encryption_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6fac406b-40ca-413b-bf8e-0bf964659c25",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "storage"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Storage accounts should prevent shared key access_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/8c6a50c6-9ffd-4ae7-986f-5fa6111f9a54",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "storage"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Storage accounts should prevent cross tenant object replication_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/92a89a79-6c52-4a7e-a03f-61306fc49312",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "storage"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Storage account encryption scopes should use customer-managed keys to encrypt data at rest_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b5ec538c-daa0-4006-8596-35468b9148e8",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "storage"
+        ]
+      },
+      {
+        "policyDefinitionReferenceId": "Storage accounts should have the specified minimum TLS version_1",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/fe83a0eb-a853-422d-aac2-1bffd182c5d0",
+        "effectiveDefinitionVersion": null,
+        "latestDefinitionVersion": null,
+        "definitionVersion": null,
+        "parameters": {},
+        "groupNames": [
+          "storage"
+        ]
+      }
+    ],
+    "version": null,
+    "policyDefinitionGroups": [
+      {
+        "additionalMetadataId": null,
+        "displayName": "Open AI",
+        "description": null,
+        "category": null,
+        "name": "openai"
+      },
+      {
+        "additionalMetadataId": null,
+        "displayName": "App Service",
+        "description": null,
+        "category": null,
+        "name": "appservice"
+      },
+      {
+        "additionalMetadataId": null,
+        "displayName": "Storage",
+        "description": null,
+        "category": null,
+        "name": "storage"
+      }
+    ],
+    "versions": null,
+    "oldVersions": null
+  },
+  "tags": null,
+  "identity": null,
+  "zones": null,
+  "extendedLocation": null
+}
